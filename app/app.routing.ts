@@ -5,11 +5,15 @@ import { DashboardComponent }      from './dashboard.component';
 
 const appRoutes: Routes = [
   {
+    path: 'dashboard',
+    component: DashboardComponent
+  },
+
+  {
     path: '',
     redirectTo: '/dashboard',
     pathMatch: 'full'
   },
-
 
   {
     path: 'heroes',
